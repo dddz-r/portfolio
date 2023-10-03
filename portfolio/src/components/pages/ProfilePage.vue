@@ -6,7 +6,7 @@
     </div>
     <div class="top-right">
       <section>
-        <h2>INFOS</h2>
+        <h2 class="title">INFOS</h2>
         <ul>
           <li>
             <span>Name : </span>aaa
@@ -21,13 +21,21 @@
             <span>Email : </span>aaa@naver.com
           </li>
         </ul>
+        <div>
+          <a href="https://github.com/dddz-r" target="_blank">
+            <img src="@/assets/img/logo/github.svg"/>
+          </a>
+          <a href="https://sumni.tistory.com/" target="_blank">
+            <img src="@/assets/img/logo/blog-solid.svg"/>
+          </a>
+        </div>
       </section>
     </div>
     </div>
     <div class="bottom">         
-      <div class="title">
-        <h2>INTRODUCE</h2>
-        <botton class="more-btn" @click="downloadResume">
+      <div class="title-box">
+        <h2 class="title">INTRODUCE</h2>
+        <botton class="download-btn" @click="downloadResume">
           이력서 다운로드
         </botton>
       </div>
@@ -43,9 +51,9 @@
 </template>
 
 <script>
-import { defineComponent } from "vue";
 import { saveAs } from "file-saver";
-export default defineComponent({
+export default {
+  name: 'ProfilePage',
   data() {
     return {};
   },
@@ -63,21 +71,16 @@ export default defineComponent({
       });
     }
   }
-});
+};
 </script>
 
 <style scoped lang="scss">
-:root {
-  --main-color: #feffb9;
-  --mobile-size: 800px;
-}
+@import '@/assets/scss/mixin';
 .styled-home {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: fit-content;
-  margin-top: 70px;
-  /* header menu height */
 }
 .top {
   display: flex;
@@ -96,8 +99,8 @@ export default defineComponent({
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        border-radius: 15px;
-        box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+        // border-radius: 15px;
+        @include box-shadow;
         position: relative;
         z-index: 1;
       }
@@ -112,9 +115,9 @@ export default defineComponent({
     padding-left: 10%;
     section {
       margin-bottom: 40px;
-      h2 {
+      .title {
+        @include title(25pt);
         text-align: left;
-        font-size: 25pt;
       }
       ul {
         display: flex;
@@ -133,6 +136,17 @@ export default defineComponent({
           }
         }
       }
+      div {
+        display: flex;
+        a {
+          cursor: pointer;
+          img {
+            width: 35px;
+            margin-inline: 10px;
+          }
+        }
+
+      }
     }
   }
 }
@@ -141,14 +155,14 @@ export default defineComponent({
   flex-direction: column;
   height: 60vh;
   width: 100%;
-  .title {
+  .title-box {
     margin: 0px 20px;
     display: flex;
     justify-content: space-between;
-    h2 {
-      font-size: 26pt;
+    .title {
+      @include title(24pt);
     }
-    .more-btn {
+    .download-btn {
       height: 40px;
       line-height: 40px;
       width: 200px;
@@ -183,9 +197,6 @@ export default defineComponent({
 }
 
 @media screen and (max-width: 800px) {
-  .styled-home{    
-    margin-top: 100px;
-  }
   .top {
     flex-wrap: wrap;
     height: fit-content;
