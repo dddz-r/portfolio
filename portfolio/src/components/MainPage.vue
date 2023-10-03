@@ -7,7 +7,7 @@
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-profile">Profile</a>
       <a class="et-hero-tab" href="#tab-skill">Skill</a>
-      <a class="et-hero-tab" href="#tab-career">Career</a>
+      <!-- <a class="et-hero-tab" href="#tab-career">Career</a> -->
       <a class="et-hero-tab" href="#tab-portfolio">Portfolio</a>
       <a class="et-hero-tab" href="#tab-contacts">Contacts</a>
       <span class="et-hero-tab-slider"></span>
@@ -21,12 +21,12 @@
       <ProfilePage></ProfilePage>
     </section>
     <section class="et-slide" id="tab-skill">
-      <h1>Skill</h1>
-      <h3>something about flexbox</h3>
+      <!-- <h1>Skill</h1> -->
+      <SkillPage></SkillPage>
     </section>
     <section class="et-slide" id="tab-career">
-      <h1>Career</h1>
-      <h3>something about react</h3>
+      <!-- <h1>Career</h1> -->
+      <!-- <CareerPage></CareerPage> -->
     </section>
     <section class="et-slide" id="tab-portfolio">
       <!-- <h1>Portfolio</h1> -->
@@ -43,11 +43,15 @@
 <script>
 // import { mapStores, storeToRefs } from 'pinia';
 import ProfilePage from '@/components/pages/ProfilePage.vue';
+import SkillPage from '@/components/pages/SkillPage.vue';
+// import CareerPage from '@/components/pages/CareerPage.vue';
 import PortfolioPage from '@/components/pages/PortfolioPage.vue';
 export default {
   name: 'MainPage',
   components: {
     ProfilePage,
+    SkillPage,
+    // CareerPage,
     PortfolioPage
   },
   data() {
@@ -131,5 +135,5 @@ export default {
 </script>
 
 <style scoped lang = "scss">
-  @import "@/assets/scss/main.scss";
+  @import "@/assets/scss/main";
 </style>
