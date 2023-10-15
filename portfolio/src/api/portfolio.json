@@ -4,11 +4,11 @@
         "id": 1,
         "thumbnail": "https://picsum.photos/400",
         "title": "소모임 어플",
-        "start_date": "2020.06.01",
-        "end_date": "2020.11.01",
-        "skill": ["html", "css", "jquery"],
+        "start_date": "2019.10",
+        "end_date": "2019.12",
+        "skill": ["Xml", "java", "Xml", "php", "android-studio", "MySql"],
         "category": "Academic",
-        "description": null,
+        "description": "대학교 학생들의 학업 증진과 커뮤니티 활성화를 목표로한 소모임 중개 서비스",
         "link": {
             "git": "",
             "url": ""
@@ -18,11 +18,11 @@
         "id": 2,
         "thumbnail": "https://picsum.photos/400",
         "title": "블록체인 중고거래 어플",
-        "start_date": "2020.06.01",
-        "end_date": "2020.11.01",
-        "skill": ["javascript", "nuxt.js", "vue.js"],
-        "category": "Toy",
-        "description": null,
+        "start_date": "2020.02",
+        "end_date": "2020.07",
+        "skill": ["Xml", "java", "android-studio", "ethereum blockchain", "MySql"],
+        "category": "Academic",
+        "description": "블록체인을 활용한 중고 전자기기 거래 어플리케이션.",
         "link": {
             "git": "",
             "url": ""
@@ -32,11 +32,11 @@
         "id": 3,
         "thumbnail": "https://picsum.photos/400",
         "title": "ATUM",
-        "start_date": "2020.06.01",
-        "end_date": "2020.11.01",
-        "skill": ["html", "css", "jquery"],
+        "start_date": "2020.06",
+        "end_date": "2022.12",
+        "skill": ["java", "spring boot", "mariaDB", "angularjs", "javascript", "html", "css", "jquery"],
         "category": "Professional",
-        "description": null,
+        "description": "- Low Code Development Plateform, 개발화면(ux생성화면/Query생성화면/DB table 생성 화면) + 프로젝트관리화면(일정, 담당자, 진행상황 관리화면/데이터 모델링 화면) 으로 구성",
         "link": {
             "git": "",
             "url": ""
@@ -46,66 +46,10 @@
         "id": 4,
         "thumbnail": "https://picsum.photos/400",
         "title": "CANAPE",
-        "start_date": "2020.06.01",
-        "skill": ["vue.js", "javascript", "html", "css"],
-        "category": null,
-        "description": "test.",
-        "link": {
-            "git": "",
-            "url": ""
-        }
-      },
-      {
-        "id": 5,
-        "thumbnail": "https://picsum.photos/400",
-        "title": "TOY1",
-        "start_date": "2020.06.01",
-        "end_date": null,
-        "skill": ["javascript"],
-        "category": 1,
-        "description": null,
-        "link": {
-            "git": "",
-            "url": ""
-        }
-      },
-      {
-        "id": 6,
-        "thumbnail": "https://picsum.photos/400",
-        "title": "TOY2",
-        "start_date": "2020.06.01",
-        "end_date": "2020.11.01",
-        "skill": ["javascript", "vue.js", "html", "scss"],
-        "category": null,
-        "description": "test, test -------------------------------------------------------------",
-        "link": {
-            "git": "",
-            "url": ""
-        }
-      },
-      {
-        "id": 7,
-        "thumbnail": "https://picsum.photos/400",
-        "title": "TOY3",
-        "start_date": "2020.06.01",
-        "end_date": "2020.11.01",
-        "skill": ["javascript"],
-        "category": "Toy",
-        "description": null,
-        "link": {
-            "git": "",
-            "url": ""
-        }
-      },
-      {
-        "id": 8,
-        "thumbnail": "https://picsum.photos/400",
-        "title": "TOY4",
-        "start_date": "2020.06.01",
-        "end_date": "2020.11.01",
-        "skill": ["javascript"],
-        "category": 2,
-        "description": null,
+        "start_date": "2023.02",
+        "skill": ["java", "spring boot", "mariaDB", "vue.js", "javascript", "html", "css"],
+        "category": "Professional",
+        "description": "파일관리 화면/UI디자인 화면/Event 설정화면으로 이루어진 목업툴",
         "link": {
             "git": "",
             "url": ""

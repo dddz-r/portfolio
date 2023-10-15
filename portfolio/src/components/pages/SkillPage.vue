@@ -27,11 +27,11 @@ export default {
   data() {
     return {
       blocks: [
-        { id: "Language", color: "red", blocks: [{ name: "JAVA", proficiency: "60%" }, { name: "javaScript", proficiency: "60%" }, { name: "C++", proficiency: "60%" }, { name: "C", proficiency: "60%" }] },
+        { id: "Language", color: "red", blocks: [{ name: "JAVA", proficiency: "60%" }, { name: "javaScript", proficiency: "70%" }, { name: "C++", proficiency: "60%" }, { name: "C", proficiency: "60%" }] },
         { id: "Tool", color: "blue", blocks: [{ name: "vscode", proficiency: "60%" }, { name: "git", proficiency: "40%" }]},
-        { id: "Web_FE", color: "orange", blocks: [{ name: "HTML", proficiency: "60%" }, { name: "CSS", proficiency: "60%" }, { name: "SCSS", proficiency: "60%" }, { name: "jQuery", proficiency: "60%" }, { name: "vue3", proficiency: "60%" }, { name: "react", proficiency: "60%" }]},
-        { id: "Web_BE", color: "green", blocks: [{ name: "springboot", proficiency: "60%" }, { name: "Node.js", proficiency: "60%" }]},
-        { id: "Infra&DB", color: "purple", blocks: [{ name: "mariaDB", proficiency: "70%" }, { name: "oracle", proficiency: "20%" }, { name: "mongoDB", proficiency: "50%" }]},
+        { id: "Web_FE", color: "orange", blocks: [{ name: "HTML", proficiency: "80%" }, { name: "CSS", proficiency: "70%" }, { name: "SCSS", proficiency: "60%" }, { name: "jQuery", proficiency: "80%" }, { name: "vue3", proficiency: "70%" }, { name: "react", proficiency: "40%" }, { name: "angularjs", proficiency: "60%" }]},
+        { id: "Web_BE", color: "green", blocks: [{ name: "springboot", proficiency: "70%" }, { name: "Node.js", proficiency: "50%" }]},
+        { id: "Infra&DB", color: "purple", blocks: [{ name: "mariaDB", proficiency: "80%" }, { name: "oracle", proficiency: "30%" }, { name: "mongoDB", proficiency: "50%" }]},
       ],
       observer: {}
     };

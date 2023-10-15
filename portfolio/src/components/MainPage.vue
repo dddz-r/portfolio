@@ -2,14 +2,19 @@
   <div>
   <!-- Hero -->
   <section class="et-hero-tabs">
-    <h1>STICKY SLIDER NAV</h1>
-    <h3>Sliding content with sticky tab nav</h3>
+    <h1>WELCOME</h1>
+    <div class="down-arrow">
+      <span></span>
+      <span></span>
+      <span></span>
+      <div>Scroll</div>
+    </div>
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-profile">Profile</a>
       <a class="et-hero-tab" href="#tab-skill">Skill</a>
       <!-- <a class="et-hero-tab" href="#tab-career">Career</a> -->
       <a class="et-hero-tab" href="#tab-portfolio">Portfolio</a>
-      <a class="et-hero-tab" href="#tab-contacts">Contacts</a>
+      <!-- <a class="et-hero-tab" href="#tab-contacts">Contacts</a> -->
       <span class="et-hero-tab-slider"></span>
     </div>
   </section>
@@ -32,10 +37,10 @@
       <!-- <h1>Portfolio</h1> -->
       <PortfolioPage></PortfolioPage>
     </section>
-    <section class="et-slide" id="tab-contacts">
+    <!-- <section class="et-slide" id="tab-contacts">
       <h1>Contacts</h1>
       <h3>something about other</h3>
-    </section>
+    </section> -->
   </main>
   </div>
 </template>

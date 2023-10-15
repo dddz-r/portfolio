@@ -9,16 +9,16 @@
         <h2 class="title">INFOS</h2>
         <ul>
           <li>
-            <span>Name : </span>aaa
+            <span>Name : </span>이수민
           </li>
           <li>
-            <span>Age : </span>2000.11.11
+            <span>Age : </span>1998.11.13
           </li>
-          <li>
+          <!-- <li>
             <span>Phone : </span>010.0000.0000
-          </li>
+          </li> -->
           <li>
-            <span>Email : </span>aaa@naver.com
+            <span>Email : </span>callbyy@gmail.com
           </li>
         </ul>
         <div>
@@ -41,9 +41,12 @@
       </div>
       <div class="contents">
         <p>
-          hello?
+          컴퓨터공학을 졸업한 3년차 웹개발자 이수민 입니다.
           <br />
-          introduce!!
+          창의적인 문제 해결과 협업을 통해 팀의 목표를 달성하는 데에 주력하고 있습니다.
+          <br />
+          다양한 의견을 수용과 지속적으로 학습을 통하여 최고의 성과를 내는 개발자가 되겠습니다!!
+          <br />
         </p>
       </div>    
     </div>
