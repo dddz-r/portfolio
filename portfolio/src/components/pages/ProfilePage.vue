@@ -63,7 +63,7 @@ export default {
   methods: {
     downloadResume(){
       const fetchPdf = async () => {
-        const response = await fetch('/assets/files/LeeSuminPortfolio.pdf');
+        const response = await fetch('/files/portfolio_nophonenumber.pdf');
         const arrayBuffer = await response.arrayBuffer();
         return arrayBuffer;
       };
@@ -72,6 +72,14 @@ export default {
         const pdfBlob = new Blob([pdfContent], { type: 'application/pdf' });
         saveAs(pdfBlob, 'LeeSuminResume.pdf');
       });
+
+      
+      // const link = document.createElement('a');
+      // link.href = '/assets/files/LeeSuminPortfolio.pdf';
+      // link.download = 'LeeSuminResume.pdf';
+      // document.body.appendChild(link);
+      // link.click();
+      // document.body.removeChild(link);
     }
   }
 };
